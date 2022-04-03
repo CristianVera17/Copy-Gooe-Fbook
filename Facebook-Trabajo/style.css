@@ -1,0 +1,134 @@
+body{
+    background: rgb(237, 237, 237);}
+
+
+.cont{
+    margin-top: 200px;
+justify-content: center;
+
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    overflow: auto;
+}
+.box{
+    width: 30%;
+    height: 300px;
+    background: rgb(237, 237, 237);
+    margin: 10px;
+    overflow: auto;
+}
+.box3{
+    margin: 20px;
+    top:20px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.box2{
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    width: 30%;
+    height: 370px;
+    background: rgb(255, 255, 255);
+    margin: 10px;
+    overflow: auto;
+}
+
+   
+
+.box4{
+    margin: 20px;
+    top:20px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+   
+}
+.box5{
+    margin: 20px;
+    top:20px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+   
+}
+.box6{
+    margin: 20px;
+    top:20px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+   
+}
+.boton{
+    font-weight: bold;
+    color: white;
+    background: rgb(62, 87, 251);
+    overflow: auto;
+    width: 100%;
+   height: 40px; 
+
+}
+.boton2{
+    font-weight: bold;
+    color: white;
+    background: #3ac300;
+    height: 50px;
+    width:250px;
+}
+.barras{
+    height: 40px;
+    width: 100%;
+
+}
+
+.logo{
+    margin-top: 20p;
+    width: 70%;
+    height: 70%;
+    position: relative;
+    justify-content: left;
+ 
+
+}
+p{
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:24px;
+   
+}
+
+.boxuni{
+    position: relative;
+    left: 180px;
+    font-size: 15px;
+    margin-top: 00px;
+
+}
+
+@media screen and (max-width:1200px){
+    .box{
+        width: 40%;
+    }
+    
+}
+@media screen and (max-width:600px){
+    .box{
+        width: 90%;
+    }
+    
+}
+
+@media screen and (max-width:1200px){
+    .box2{
+        width: 40%;
+    }
+    
+}
+@media screen and (max-width:600px){
+    .box2{
+        width: 90%;
+    }
+    
+}

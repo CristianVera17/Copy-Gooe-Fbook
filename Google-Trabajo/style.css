@@ -1,0 +1,177 @@
+
+/*HEADER*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cont1{
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: wrap;
+
+}
+
+.cont1 div{
+    overflow: auto;
+    width: 130px;
+    height: 50px;
+    margin: 0px;
+}
+.boton{
+    color: blue;
+}
+.img1{
+    width: 100%;
+    height: 90%;
+    color: blue;
+}
+button{
+    
+    color: white;
+    
+    background-color: rgb(42, 104, 165);
+}
+.menu{
+    width: 60px;
+    height: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.icon{
+    position: relative;
+    top: 8px;
+}
+
+/*TERMINA CODIGO DE CSS DE TODA LA BARRA DEL HEADER*/
+
+
+/*SECTION - CON DIV*/
+
+
+section{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.img2{
+    width: 40%;
+}
+
+.imguno{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+
+}
+
+/* .buscador{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+} */
+.botonesmedio{
+    border-radius: 10px;
+    color: black;
+    width: 90%;
+    height:100%;
+    background-color: rgb(242, 242, 242);
+    
+}
+.searchcustom{
+    width: 30%;
+}
+
+/*FOOTER*/
+.footerdiv{
+
+    margin-top:70px;
+    justify-content: space-evenly;
+}
+
+.flex{
+    height: 30px;
+    background-color: #f9f9f9;
+   display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    
+    
+}
+.fot{
+  position: relative;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between; 
+}
+.fot div{
+    padding: 20px;
+    margin-left: 20px;
+}
+.arg{
+    padding: 20px;
+    margin-left: 20px;
+    height: 30px;
+    background-color: #f9f9f9;
+}
+
+.buscadorid{
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+  
+    
+
+}
+.mic{
+    position: relative;
+    top: 3px;
+    position: relative;
+    width: 19px;
+    
+}
+
+.form1{
+    margin: 50px;
+    align-items: center;
+    width: 40%;
+    box-shadow: 1px 1px 8px -1px rgb(152, 152, 152) , -6px -6px 10px -1px rgb(255, 255, 255);
+    border-radius: 30px;
+    margin-top:50px;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    justify-content: space-around;
+   
+
+}
+.sesale{
+    overflow: hidden;
+}
+
+.buscador{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.searchicon{
+    position: relative;
+    top: 3px;
+    position: relative;
+    width: 30px;
+}
+
